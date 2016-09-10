@@ -1,3 +1,4 @@
+#ifndef __AVR__
 #include "spi.h"
 #include <pthread.h>
 
@@ -48,3 +49,5 @@ void SPI::chipSelect(int csn_pin){
 SPI::~SPI() {
 
 }
+#endif
+

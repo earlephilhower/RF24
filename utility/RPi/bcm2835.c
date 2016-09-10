@@ -1,3 +1,4 @@
+#ifndef __AVR__
 /* bcm2835.c
 // C and C++ support for Broadcom BCM 2835 as used in Raspberry Pi
 // http://elinux.org/RPi_Low-level_peripherals
@@ -1516,4 +1517,5 @@ int main(int argc, char **argv)
 #endif
 
 
+#endif
 

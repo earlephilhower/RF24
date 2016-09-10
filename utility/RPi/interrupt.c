@@ -1,3 +1,4 @@
+#ifndef __AVR__
 /*
 Interrupts functions extruded from wiringPi library by Oitzu.
 
@@ -224,3 +225,4 @@ void rfNoInterrupts(){
 void rfInterrupts(){
   pthread_mutex_unlock (&pinMutex) ;
 }
+#endif
